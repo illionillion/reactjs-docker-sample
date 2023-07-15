@@ -1,0 +1,21 @@
+.App {
+  width: 100vw;
+  height: 100svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  display: inline-block;
+  width: calc(100vw * 0.25);
+  height: calc(100vw * 0.25);
+  text-align: center;
+  line-height: calc(100vw * 0.25);
+  border-radius: 50%;
+  border: solid 3px skyblue;
+}
+
+.circle p {
+  margin: 0;
+}
