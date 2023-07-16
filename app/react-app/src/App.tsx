@@ -1,12 +1,12 @@
+import { Box } from '@chakra-ui/react';
 import './App.css';
+import { Circle } from './components/Circle';
 
 function App() {
   return (
-    <div className="App">
-      <div className="circle">
-        <p>Hello React</p>
-      </div>
-    </div>
+    <Box className="App">
+      <Circle>Hello React</Circle>
+    </Box>
   );
 }
 
